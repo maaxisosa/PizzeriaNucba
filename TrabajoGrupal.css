@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+* {
+  font-family: Montserrat;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 120vh;
+  background: #131415;
+}
+
+.headerCont {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.pizzaLogo {
+
+  height: 100%;
+  padding: 20px;
+}
+
+.categorias {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.ContenedorSebas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  
+}
+
+.Category {
+ 
+  font-weight: 800;
+  font-size: 15px;
+  display: flex;
+  margin: 20px 30px;
+  color: white;
+}
+
+.cuadrado1 {
+  display: flex;
+  width: 147px;
+  height: 171px;
+  border-radius: 15px;
+  background-color: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pizzeriaNucba {
+  width: 71px;
+  height: 71px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.categoryName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: #252525;
+}
+
+.espacio {
+  width: 30px;
+  height: 4px;
+  margin-top: 10px;
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+.size_img_cat {
+  width: 86px;
+  height: 86px;
+  background: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.popular {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.titulo_cards {
+  color: white;
+  margin: 20px 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+  margin: auto;
+}
+
+.cardsFood {
+  width: 282px;
+  height: 212px;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #252525;
+}
+
+.size_img {
+  width: 237px;
+  height: 97px;
+  border-radius: 15px;
+}
+
+
+.nombre_producto h4 {
+  color: white;
+  background-color: #252525;
+  font-size: 15px;
+  text-align: left;
+}
+
+.desc h4 {
+  color: rgb(125, 148, 148);
+  background-color: #252525;
+  font-size: 15px;
+}
+
+.precio_boton {
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio_boton h2 {
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+  width: 100px;
+  font-size: 18px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card_boton {
+  background-color: transparent;
+}
+
+.card_boton button {
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #fb103d 101.53%);
+  color: #ffffff;
+  border: none;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  transition-duration: 0.1s;
+}
+
+.card_boton button:hover {
+  width: 100px;
+}
+
+
+.ContainerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.elementosFooter {
+
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.elementosFooter span {
+  font-weight: bold;
+}
+
+.elementosFooter .cor {
+  color: red;
+}
+
+
+.heroPachi {
+  width: 100vw;
+  margin: 80px 0px 0px 0px;
+  padding: 0 8%;
+}
+
+.heroPachi2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.heroPachi3 {
+  width: 50%;
+  min-width: 550px;
+  color: white;
+}
+
+.heroPachi3 h1 {
+  font-family: var(--tipo-principal);
+  font-size: 66px;
+}
+
+.heroPachi3 p span {
+  font-size: 50px;
+}
+
+.heroPachi3 p {
+
+  font-size: 20px;
+}
+
+.heroPachi3 button {
+  height: 50px;
+  width: 165px;
+  font-weight: 600;
+  margin-top: 35px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #ffa100, #fb103d);
+}
+
+.heroPachi4 {
+  height: 275px;
+  width: 500px;
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.heroPachi4 img:first-child {
+  width: 265px;
+  height: 265px;
+  position: relative;
+  left: 15px;
+  background-color: transparent;
+}
+
+.heroPachi4 img:last-child {
+  height: 392px;
+  width: 392px;
+  position: relative;
+  top: -110px;
+  left: -133px;
+  background-color: transparent;
+}
+
+.HERO2 {
+  color: white;
+  margin-top: 80px;
+}
+
+.HERO2 h2 {
+  font-family: var(--tipo-principal);
+  font-size: 22px;
+}
+
+.ContainerReco {
+  margin-top: 24px;
+  padding: 0 70px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.heroReco1 {
+  height: 103px;
+  width: 347px;
+  min-width: 347px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252525;
+  box-shadow: 0px 0px 50px 0px #02070180;
+}
+
+.heroReco1 img {
+  width: 62px;
+  height: 62px;
+  border-radius: 16px;
+}
+
+.heroReco1 div h3 {
+  
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heroReco1 .description {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  opacity: 30%;
+}
+
+.heroReco1 .price {
+  
+  font-size: 19px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffa100, #fb103d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.heroReco1 button {
+  height: 29px;
+  width: 85px;
+  border-radius: 17.5px;
+  background: linear-gradient(90deg, #ffa100, #fb103d);
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.button_scale:hover {
+  animation-name: scale_button;
+  animation-duration: 0.8s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes scale_button {
+  from {scale: 1;}
+  to {scale: 1.2;}
+}
+
+
+@media (max-width:1440px) {
+  .ContainerReco {
+    padding: 0px;
+  }
+}
+
+@media (max-width:1250px) {
+  .heroReco1 {
+    flex-direction: column-reverse;
+    overflow: visible;
+  }
+}
+
+@media (max-width:550px) {
+  .headerCont {
+    padding: 0px;
+  }
+
+  .heroPachi {
+    width: 100%;
+  }
+
+  .heroPachi2 {
+    min-width: 320px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .heroPachi3 {
+    overflow: visible;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .heroPachi4 img:last-child {
+    top: -80px;
+    left: -95px;
+  }
+
+  .heroPachi4 #porcion1 {
+    max-block-size: 180px;
+  }
+
+  .heroPachi4 #porcion2 {
+    max-block-size: 280px;
+  }
+
+  .containerFooter {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:375px) {
+  .contenedorSebas {
+    gap: 10px;
+  }
+}
+
